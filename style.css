@@ -94,13 +94,13 @@ p {
 }
 .col-4 {
   flex-basis: 25%;
-  padding: 10px;
+  padding: 20px;
   min-width: 200px;
   margin-bottom: 50px;
   transition: transform 0.5s;
 }
 .col-4 img {
-  width: 100%;
+  width: 75%;
 }
 
 .title {
@@ -133,4 +133,8 @@ h4 {
 }
 .col-4:hover {
   transform: translateY(-5px);
+}
+.thumbnail {
+  height: 250px;
+  width: 100%;
 }
