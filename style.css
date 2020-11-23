@@ -32,7 +32,7 @@ p {
   color: #555;
 }
 .container {
-  max-width: 1300px;
+  max-width: 100%;
   margin: auto;
   padding-left: 25px;
   padding-right: 25px;
@@ -246,5 +246,18 @@ ul {
   margin-top: 20px;
 }
 .app-logo img {
-  width: 35%;
+  width: 140px;
+}
+.footer hr {
+  border: none;
+  background: #000;
+  height: 1px;
+  margin: 20px 0;
+}
+.copyright {
+  text-align: center;
+}
+
+.menu-icon {
+  width: 28px;
 }
