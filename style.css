@@ -321,6 +321,10 @@ select:focus {
   line-height: 40px;
   cursor: pointer;
 }
+.page-btn span:hover {
+  background: #bf7a77;
+  color: #fff;
+}
 
 /*--- media query for less than 600px screen size ---*/
 
