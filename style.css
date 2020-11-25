@@ -355,6 +355,9 @@ select:focus {
   margin-right: 10px;
   border: 1px solid #bf7a77;
 }
+input:focus {
+  outline: none;
+}
 /*--- media query for less than 600px screen size ---*/
 
 @media only screen and (max-width: 600px){
