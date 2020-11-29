@@ -417,9 +417,14 @@ td img {
 .total-price table {
   border-top: 3px solid #bf7a77;
   width: 100%;
-  max-width: 350px;
+  max-width: 290px;
 }
-
+td:last-child {
+  text-align: right;
+}
+th:last-child {
+  text-align: right;
+}
 
 /*--- media query for less than 600px screen size ---*/
 
@@ -439,5 +444,9 @@ td img {
   .single-product h1 {
     font-size: 26px;
     line-height: 32px;
+  }
+
+  .cart-info p {
+    display: none;
   }
 }
