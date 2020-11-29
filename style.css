@@ -372,6 +372,43 @@ input:focus {
   cursor: pointer;
 }
 
+/*--- cart items ---*/
+
+.cart-page {
+  margin: 80px auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cart-info img {
+  width: 35%;
+}
+th {
+  text-align: left;
+  padding: 5px;
+  color: #fff;
+  background: #bf7a77;
+  font-weight: normal;
+}
+
+td {
+  padding: 10px 5px;
+}
+td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+td a {
+  color: #bf7a77;
+  font-size: 12px;
+}
+
 
 /*--- media query for less than 600px screen size ---*/
 
@@ -381,5 +418,15 @@ input:focus {
   }
   .col-2, .col-3, .col-4, .col-5{
     flex-basis: 70%;
+  }
+  .single-product .row {
+    text-align: left;
+  }
+  .single-product .col-2 {
+    padding: 20px 0;
+  }
+  .single-product h1 {
+    font-size: 26px;
+    line-height: 32px;
   }
 }
