@@ -385,9 +385,6 @@ table {
   display: flex;
   flex-wrap: wrap;
 }
-.cart-info img {
-  width: 35%;
-}
 th {
   text-align: left;
   padding: 5px;
@@ -407,6 +404,20 @@ td input {
 td a {
   color: #bf7a77;
   font-size: 12px;
+}
+td img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+.total-price {
+  display: flex;
+  justify-content: flex-end;
+}
+.total-price table {
+  border-top: 3px solid #bf7a77;
+  width: 100%;
+  max-width: 350px;
 }
 
 
